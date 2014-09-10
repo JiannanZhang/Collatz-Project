@@ -116,12 +116,13 @@ class TestCollatz (TestCase) :
         w = StringIO()
         collatz_solve(r, w)
         self.assertEqual(w.getvalue(), "1 10 20\n100 200 125\n201 210 89\n900 1000 174\n")
-        '''
+    
+    def test_solve1 (self) :   
         r = StringIO("1 1\n1 2\n201 210\n")
         w = StringIO()
         collatz_solve(r, w)
         self.assertEqual(w.getvalue(), "1 1 1\n1 2 2\n201 210 89\n")
-        '''
+        
 # ----
 # main
 # ----
