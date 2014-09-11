@@ -62,25 +62,7 @@ def collatz_eval (i, j) :
             maxC = c
     assert maxC > 0
     return maxC
-'''
-# helper method to get c - cycle length
-def getCyc (n) :
-    assert n > 0
-    c = 1 
-    nCopy = n
-    while (n != 1):
-        if (n % 2 != 0):
-            n = (3 * n + 1) // 2
-            c += 2
-        else:
-            n = n / 2
-            c += 1 
-        if n in dicCa:
-            c = c + dicCa[n] - 1
-    dicCa[nCopy] = c
-    assert c > 0
-    return c 
-'''
+
 # -------------
 # collatz_print
 # -------------
