@@ -1,0 +1,59 @@
+commit 179dd3837a86173efbcc29584f3f8ff2b24f9e25
+Author: Jeffrey Zhang <jiannanzhang1992@gmail.com>
+Date:   Wed Sep 10 19:37:58 2014 -0500
+
+    delete some pre commented code
+
+commit 35c2bb5cf9f47922fe18a2c3c0e85195184da1f4
+Author: Jeffrey Zhang <jiannanzhang1992@gmail.com>
+Date:   Wed Sep 10 19:01:18 2014 -0500
+
+    fixed the tests
+
+commit effc202b9e86d245920561f63d7bf1beb743a1bf
+Author: Jeffrey Zhang <jiannanzhang1992@gmail.com>
+Date:   Tue Sep 9 22:17:42 2014 -0500
+
+    add 1000 lines of good tests
+
+commit 140e49fbad59a1008c3b738a48b60c7cddc0eeed
+Author: Jeffrey Zhang <jiannanzhang1992@gmail.com>
+Date:   Tue Sep 9 21:09:00 2014 -0500
+
+    add more featured tests
+
+commit d2f80c4f619f1a62fe981474649b24636f80f5cc
+Author: Jeffrey Zhang <jiannanzhang1992@gmail.com>
+Date:   Mon Sep 8 23:39:08 2014 -0500
+
+    Sphere acceptedgit add SphereCollatz.py
+
+commit 28280d55d4efd20430d84bbd77906f583ccca348
+Author: Jeffrey Zhang <jiannanzhang1992@gmail.com>
+Date:   Mon Sep 8 19:57:15 2014 -0500
+
+    opitimized and tests passed
+
+commit 896f3a0b52851645a831f5f2de311546ca65a2f8
+Author: Jeffrey Zhang <jiannanzhang1992@gmail.com>
+Date:   Mon Sep 8 19:53:10 2014 -0500
+
+    more unit tests written
+
+commit 5309ff0a290fe18b558033c7e3a3bd75505fbaef
+Author: Jeffrey Zhang <jiannanzhang1992@gmail.com>
+Date:   Sun Sep 7 16:21:19 2014 -0500
+
+    fixd the given unit tests
+
+commit 6d811cc8f04b87d6c10f105092b0654085289c9a
+Author: Jeffrey Zhang <jiannanzhang1992@gmail.com>
+Date:   Sun Sep 7 15:46:12 2014 -0500
+
+    first commit
+
+commit b7d40d953fd9e0f74d16186e5a25c3848503182c
+Author: Jeffrey Zhang <jiannanzhang1992@gmail.com>
+Date:   Thu Sep 4 09:35:36 2014 -0500
+
+    Initial commit
