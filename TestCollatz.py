@@ -25,21 +25,25 @@ class TestCollatz (TestCase) :
     # ----
 
     def test_read (self) :
-
         r    = StringIO("1 10\n100 200\n201 210\n900 1000\n")
-
         i, j = collatz_read(r)
         self.assertEqual(i,  1)
         self.assertEqual(j, 10)
-        
+
+    def test_read2 (self) :
+        r    = StringIO("100 200\n100 200\n201 210\n900 1000\n")   
         i, j = collatz_read(r)
         self.assertEqual(i,  100)
         self.assertEqual(j, 200)
-        
+     
+    def test_read3 (self) :
+        r    = StringIO("201 210\n100 200\n201 210\n900 1000\n")   
         i, j = collatz_read(r)
         self.assertEqual(i,  201)
         self.assertEqual(j, 210)
-        
+    
+    def test_read4 (self) :
+        r    = StringIO("900 1000\n100 200\n201 210\n900 1000\n")    
         i, j = collatz_read(r)
         self.assertEqual(i,  900)
         self.assertEqual(j, 1000)
