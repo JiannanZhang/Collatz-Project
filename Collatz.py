@@ -33,7 +33,8 @@ def collatz_eval (i, j) :
     m = j // 2 + 1
     if (m > i):
         i = m 
-    maxC = 0  
+    maxC = 0
+    # build up the cache using dic (list may be better)
     dicCa = {}
     for n in range (i, j+1) :
         c = 1 
